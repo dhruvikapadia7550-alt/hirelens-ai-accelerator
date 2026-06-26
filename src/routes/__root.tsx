@@ -84,6 +84,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "Analyze your resume, prepare for interviews, identify missing skills, and accelerate your career with AI." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "HireLens — Your AI Career Coach" },
+      { name: "twitter:description", content: "Analyze your resume, prepare for interviews, identify missing skills, and accelerate your career with AI." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/ab691fed-e00c-4e2e-876b-a030f09af601" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/ab691fed-e00c-4e2e-876b-a030f09af601" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
